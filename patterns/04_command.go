@@ -1,5 +1,11 @@
 package main
 
+/*
+	Реализовать паттерн «команда».
+Объяснить применимость паттерна, его плюсы и минусы, а также реальные примеры использования данного примера на практике.
+	https://en.wikipedia.org/wiki/Command_pattern
+*/
+
 import "fmt"
 
 type ICommand interface {
