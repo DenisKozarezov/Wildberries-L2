@@ -22,6 +22,11 @@ func main() {
 
 Ответ:
 ```
-...
+type EmptyInterface interface {
+    type *Type => os.PathError
+    data *Data => nil
+}
+1) Ответ: <nil> - поскольку выводит поле data, однако указатель на статический тип равен os.PathError
+2) Ответ: false - поскольку сам по себе результат функции Foo не равен nil, а только поле data
 
 ```
